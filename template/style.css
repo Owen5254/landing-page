@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
 .header, .main{
@@ -22,7 +22,12 @@ body{
     gap: 16px;
 }
 a{
-    color:aliceblue
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
 }
 .text{
     font-size: 24px;
@@ -30,7 +35,7 @@ a{
 
 /* main */
 .main{
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +51,14 @@ a{
     margin: 50px;
 }
 .intro_text{
-    font-size: 35px;
+    font-size: 48px;
+    font-weight: bold;
+
 }
 .intro_text_smaller{
-    margin: 12px 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #e5e7eb;
 }
 .signUp_Btn{
     background-color: cornflowerblue;
@@ -57,6 +66,83 @@ a{
     width:100px;
     height: 30px;
     border-radius: 5px;
-    border: none;
+    border-color: azure;
     font-weight: bold;
+}
+
+/* content */
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 150px;
+    margin: 20px;
+}
+.card_picture{
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 150px;
+}
+.title{
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #1f2937;  
+}
+
+/* quote */
+.quote{
+    background-color: #e5e7e5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text_box{
+    width: 760px;
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937;  
+}
+.author{
+    text-align: right;
+}
+
+/* signUp_section */
+
+.signUp_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+
+}
+.inner_box{
+    width: 800px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.inner_text_box{
+    color: white;
+    font-size: 24px;
+}
+.smaller{
+    font-size: 15px;
+}
+
+/* footer */
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
 }
